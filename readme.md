@@ -2,7 +2,9 @@
 
 to see what I can build in Rails in a one-hour timebox
 
-## 2026-10-29
+## First Attempt 
+
+### 2026-10-29
 
 ```
 rails new one-hour-rails-app-2026-10-29 --database=postgresql
@@ -73,9 +75,7 @@ the show view is blank
 time is up!
 ```
 
-
-
-## Misc
+# Misc Whammies
 
 kill all running rails apps
 
