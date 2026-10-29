@@ -18,12 +18,32 @@
     <link rel="icon" href="/icon.svg" type="image/svg+xml">
     <link rel="apple-touch-icon" href="/icon.png">
 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2.1.1/css/pico.min.css">
+
     <%# Includes all stylesheet files in app/assets/stylesheets %>
     <%= stylesheet_link_tag :app, "data-turbo-track": "reload" %>
     <%= javascript_importmap_tags %>
   </head>
 
   <body>
-    <%= yield %>
+    <header class="container">
+      <nav>
+        <ul>
+          <li><strong><%= link_to "One Hour Rails: Farticles", root_path %></strong></li>
+        </ul>
+        <ul>
+          <li><%= link_to "Articles", articles_path %></li>
+          <li><%= link_to "New Article", new_article_path, role: "button" %></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="container">
+      <%= yield %>
+    </main>
+
+    <footer class="container">
+      <small>&copy; <%= Time.current.year %> Christopher Vigliotti, who should be embarassed.</small>
+    </footer>
   </body>
 </html>
