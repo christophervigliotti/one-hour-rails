@@ -1,0 +1,8 @@
+<h1>Articles#index</h1>
+<%= link_to "New Article", new_article_path %>
+<ul>
+  <% @articles.each do |article| %>
+    <li><%= article.title %> - <%= article.published %> - <%= article.body %> <
+    <%= link_to "Edit this Article", edit_article_path(article) %></li>
+  <% end %>
+</ul>
