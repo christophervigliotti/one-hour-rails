@@ -2,19 +2,52 @@
 
 to see what I can build in Rails in a one-hour timebox
 
-## First Attempt: Farticles 
+## First Attempt: Articles 
 
-### 2026-10-30
+### Summary
 
-#### 530p
+I spent just over two hours on this.  I was (using a bit of help from Claude) able to create a working app, make it not look ugly, make rubocop happy, author some tests and integrate Playwright with a few tests there.
+
+#### 2026-10-30 @ 530p
 
 ```
 addressing some of the nine items mentioned in yesterday's 630p notes
+
+app looks good
+
+bin/rubocop
+
+of the 9 from yesterday these two are the last two that are worth addressing
+
+    Item 5, browser check: I can't test this from here. Submit the new and edit forms in the running app and confirm the saves and redirects work.
+
+    FIXED  
+        Item 6, index view: Still open. app/views/articles/index.html.erb line 6 has the stray < at the end of the list item, and it still prints article.published as true/false. A one-line fix with a clearer label, such as "Published" or "Draft", would clean both up.
+
+this extends the project a bit, but I'm going to to the Playwright route
+
+cd "/Users/Christopher.Vigliotti/Library/Mobile Documents/com~apple~CloudDocs/Chris/Documents/Code/Ruby/Rails/one hour rails/one-hour-rails-app-2026-10-29/e2e"
+npm run test:e2e
+
+npm install
+npx playwright install chromium
+
+headed
+npx playwright test --headed
+
+run a single test
+npx playwright test -g "create article"
+
+added "slow mode" that can be called via terminal...
+npm run test:e2e -- --slow=1500 --keep-open -g "create article"
+
+thats rad!
+
+ok we are done here
+
 ```
 
-### 2026-10-29
-
-#### 630p
+#### 2026-10-29 @ 630p
 
 ```
 a bit more tinkering...
@@ -111,7 +144,7 @@ everything is working great, but there would be some good learning value if I sp
 
 ```
 
-#### 2p-3p (ish)
+#### 2026-10-29 @ 2p ish
 
 ```
 rails new one-hour-rails-app-2026-10-29 --database=postgresql
