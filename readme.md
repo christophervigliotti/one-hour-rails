@@ -11,9 +11,8 @@ code at one-hour-rails-app-2026-10-29.zip
 I spent just over two hours on this.  I was (using a bit of help from Claude) able to create a working app, make it not look ugly, make rubocop happy, author some tests and integrate Playwright with a few tests there.
 
 
-
 <details>
-<summary>Build log (2026-10-29 and 2026-10-30)</summary>
+<summary>Build Notes - 2026-10-29 and 2026-10-30</summary>
 
 > #### 2026-10-30 @ 530p
 >
