@@ -1,6 +1,6 @@
 # Why? 
 
-To see what I can build in Rails in a one-hour timebox.  I will be doing this repeatedly in order to build some fundamental Rails muscle memory.
+To see what I can build in Rails in a one-hour timebox.  I will be doing this repeatedly in order to build some muscle memory.  Think of it as gainz but for my brain.
 
 ## First Attempt: Articles 
 
