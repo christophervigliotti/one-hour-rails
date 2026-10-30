@@ -226,7 +226,7 @@ I spent just over two hours on this.  I was (using a bit of help from Claude) ab
 
 </details>
 
-## Second Attempt: Not Sure Yet, But Probably Articles
+## Second Attempt: Not Sure Yet, But Probably Articles Again
 
 I'm thinking that I need to maybe aim for doing less, but doing more of it without Claude's help.  Maybe I will learn how to deploy this iteration of the app to Render via a Dockerfile.
 
