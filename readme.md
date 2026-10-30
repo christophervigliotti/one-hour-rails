@@ -1,3 +1,5 @@
+![kinda stupid](kinda-stupid.jpg)
+
 # Why? 
 
 to see what I can build in Rails in a one-hour timebox
