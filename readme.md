@@ -8,8 +8,7 @@ code at one-hour-rails-app-2026-10-29.zip
 
 ### Summary
 
-I spent just over two hours on this.  I was (using a bit of help from Claude) able to create a working app, make it not look ugly, make rubocop happy, author some tests and integrate Playwright with a few tests there.
-
+I spent just over two hours on this.  I was (using a bit of help from Claude) able to create a working app, make it not look ugly, make rubocop happy, author some tests and integrate Playwright with a few pw tests.  As an added bonus I threw in an option to run the Playwright tests in "slow mode" so you can follow along with each test as it runs.  
 
 <details>
 <summary>Click to Expand/Collapse Build Notes</summary>
