@@ -1,11 +1,13 @@
 # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
+# Titles and bodies meet the Article validations so fixtures can be edited through the app.
+
 one:
-  title: MyString
-  body: MyText
+  title: First Fixture Article
+  body: This is the first fixture body. It is long enough to pass the body validation.
   published: false
 
 two:
-  title: MyString
-  body: MyText
-  published: false
+  title: Second Fixture Article
+  body: This is the second fixture body. It is also long enough to pass the body validation.
+  published: true

@@ -2,9 +2,116 @@
 
 to see what I can build in Rails in a one-hour timebox
 
-## First Attempt 
+## First Attempt: Farticles 
+
+### 2026-10-30
+
+#### 530p
+
+```
+addressing some of the nine items mentioned in yesterday's 630p notes
+```
 
 ### 2026-10-29
+
+#### 630p
+
+```
+a bit more tinkering...
+would like to get the show view rocking
+ok we are square on all views and actions
+
+lets' make it look nicer but not too much effort bc "1 hour app"
+pico.css
+nice
+let's add a header and footer then shift focus over to testing
+but first header and footer
+
+and rubocop
+5 offenses, let's not 'autocorrect' the 4 that it's offering to fix
+
+fixed
+whitespace mostly
+
+bin/rails test
+    returns
+        E
+
+        Error:
+        ArticlesControllerTest#test_should_get_index:
+        NoMethodError: undefined method 'articles_index_url' for an instance of ArticlesControllerTest
+            test/controllers/articles_controller_test.rb:5:in 'block in <class:ArticlesControllerTest>'
+
+
+        bin/rails test test/controllers/articles_controller_test.rb:4
+
+        E
+
+        Error:
+        ArticlesControllerTest#test_should_get_show:
+        NameError: undefined local variable or method 'articles_show_url' for an instance of ArticlesControllerTest
+            test/controllers/articles_controller_test.rb:10:in 'block in <class:ArticlesControllerTest>'
+
+
+        bin/rails test test/controllers/articles_controller_test.rb:9
+
+        E
+
+        Error:
+        ArticlesControllerTest#test_should_get_create:
+        NameError: undefined local variable or method 'articles_create_url' for an instance of ArticlesControllerTest
+            test/controllers/articles_controller_test.rb:20:in 'block in <class:ArticlesControllerTest>'
+
+
+        bin/rails test test/controllers/articles_controller_test.rb:19
+
+        E
+
+        Error:
+        ArticlesControllerTest#test_should_get_new:
+        NameError: undefined local variable or method 'articles_new_url' for an instance of ArticlesControllerTest
+            test/controllers/articles_controller_test.rb:15:in 'block in <class:ArticlesControllerTest>'
+
+
+        bin/rails test test/controllers/articles_controller_test.rb:14
+
+
+
+        Finished in 0.075600s, 52.9101 runs/s, 0.0000 assertions/s.
+        4 runs, 0 assertions, 0 failures, 4 errors, 0 skips
+
+articles_url is defined by convention
+as is article_url and new_article_url
+
+everything is working great, but there would be some good learning value if I spent the next hour block focusing on some of these items...
+
+    1. The new-article form is missing published. Task 2 asks for title, body, and published, but app/views/articles/new.html.erb only has title and body. The edit form has the checkbox, so the two forms don't match.
+
+    2. Failed saves don't explain themselves. Task 3 asks for error handling when validation fails. The controller re-renders new on failure, but there are no validations on Article and the form has no error messages. Adding validates :title, presence: true plus an error list in the form would cover it.
+
+    Tests
+
+    3. Replace the four scaffold tests. They're all broken on the route helper names. Rewrite them to cover index, show, new, create, edit, and update against the real routes, with fixtures.
+
+    4. Add tests for the write paths. Create and update should be checked with valid data (saves and redirects) and invalid data (re-renders the form). Those are the behaviors you just fixed.
+
+    Manual checks
+
+    5. Edit and create in a browser. The update route is fixed, but I only confirmed it through the log and routes, not by submitting the form.
+
+    6. Check the index list. app/views/articles/index.html.erb has a stray < on the list item and shows true/false for published. Both are easy to clean up.
+
+    Housekeeping
+
+    7. Rerun RuboCop. You noted 5 offenses; run bin/rubocop again after the recent edits.
+
+    8. Commit the work. Several files are modified and uncommitted (routes, layout, views, controller), so a commit now keeps the one-hour state recoverable.
+
+    9. Update the readme. It ends at "time is up!" and still says the show view is blank, which is no longer true.
+
+```
+
+#### 2p-3p (ish)
 
 ```
 rails new one-hour-rails-app-2026-10-29 --database=postgresql
