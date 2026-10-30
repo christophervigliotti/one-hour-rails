@@ -1,5 +1,3 @@
-![kinda stupid](kinda-stupid.jpg)
-
 # Why? 
 
 to see what I can build in Rails in a one-hour timebox
@@ -225,7 +223,7 @@ I spent just over two hours on this.  I was (using a bit of help from Claude) ab
 
 </details>
 
-
+![kinda stupid](kinda-stupid.jpg)
 
 # Misc Whammies
 
