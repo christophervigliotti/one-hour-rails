@@ -16,6 +16,8 @@ I spent just over two hours on this.  I was (using a bit of help from Claude) ab
 
 > #### Build Notes For one-hour-rails-app-2026-10-29
 > 
+> Presented in reverse chronological order as if this were a novel or something
+> 
 > ##### 2026-10-30 @ 530p
 >
 > ```
