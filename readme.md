@@ -227,6 +227,17 @@ I spent just over two hours on this.  I was (using a bit of help from Claude) ab
 
 </details>
 
+## Second Attempt: Not Sure Yet
+
+<details>
+<summary>Click to Expand/Collapse Build Notes</summary>
+
+#### Build Notes For one-hour-rails-app-2026-11-02
+```
+nothing here yet, bruh
+```
+</details>
+
 ![kinda stupid](kinda-stupid.jpg)
 
 # Misc Whammies
