@@ -12,9 +12,11 @@ I spent just over two hours on this.  I was (using a bit of help from Claude) ab
 
 
 <details>
-<summary>Build Notes - 2026-10-29 and 2026-10-30</summary>
+<summary>Click to Expand/Collapse Build Notes</summary>
 
-> #### 2026-10-30 @ 530p
+> #### Build Notes For one-hour-rails-app-2026-10-29
+> 
+> ##### 2026-10-30 @ 530p
 >
 > ```
 > addressing some of the nine items mentioned in yesterday's 630p notes
@@ -53,7 +55,7 @@ I spent just over two hours on this.  I was (using a bit of help from Claude) ab
 >
 > ```
 >
-> #### 2026-10-29 @ 630p
+> ##### 2026-10-29 @ 630p
 >
 > ```
 > a bit more tinkering...
@@ -150,7 +152,7 @@ I spent just over two hours on this.  I was (using a bit of help from Claude) ab
 >
 > ```
 >
-> #### 2026-10-29 @ 2p ish
+> ##### 2026-10-29 @ 2p ish
 >
 > ```
 > rails new one-hour-rails-app-2026-10-29 --database=postgresql
