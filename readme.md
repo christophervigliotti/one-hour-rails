@@ -238,8 +238,6 @@ nothing here yet, bruh
 ```
 </details>
 
-![kinda stupid](kinda-stupid.jpg)
-
 # Misc Whammies
 
 kill all running rails apps
