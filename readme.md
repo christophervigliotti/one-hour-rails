@@ -4,8 +4,8 @@ I want to see what I can build in Rails in one-hour.  I want to perform this sam
 
 ## Where's The Beef?
 
-* The scope of and build notes for my current iteration [is right here](you_can_get_with_this.md).  This work will likely always appear to be unfinished.
-* My previous hour's (completed) work is in the cleverly named [previous/](_previous/) folder
+* The scope of and build notes for my current iteration [is right here](you_can_get_with_this.md).  This work will likely be unfinished.
+* My previous hour's (completed) work is in the cleverly named [previous/](_previous/) folder.  If you want to goof around with the last completed thing that I built, that would be the place to do it.
 * All previous hours have been zipped up into discreet files and tossed into the hellscape that is the [multiverse/](_multiverse/)
 
 ## And Now For Some Concise Instructions For First Use
