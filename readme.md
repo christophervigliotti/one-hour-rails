@@ -4,8 +4,7 @@ I want to see what I can build in Rails in one-hour.  I want to perform this sam
 
 ## Where's The Beef?
 
-* The current beef is always in the repo root
-* the scope of the current beef can be found in you_can_get_with_this.md
+* The current one-hour Rails thang is always in the repo root. build notes and scope/requirements are in you_can_get_with_this.md
 * the last previous beef is found in _previous 
 * all previous beef(s) are stored as zip files in the _multiverse
 
