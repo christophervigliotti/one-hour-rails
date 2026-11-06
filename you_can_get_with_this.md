@@ -2,7 +2,7 @@
 
 ## Goals N' Notes
 
-Going to try to do less but do more of it manually
+Going to try to do less than I did with the previous iteration, focusing on doing more of it manually
 
 1. generate a model for article and author
 
