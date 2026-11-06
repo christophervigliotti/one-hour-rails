@@ -4,9 +4,13 @@ I want to see what I can build in Rails in one-hour.  I want to perform this sam
 
 ## Where's The Beef?
 
-* The current one-hour Rails thang is always in the repo root. [My current hour's work is right here](you_can_get_with_this.md)
-* the last previous beef is found in _previous 
-* all previous beef(s) are stored as zip files in the _multiverse
+* The scope of and build notes for my current iteration [is right here](you_can_get_with_this.md).  This work will likely always appear to be unfinished.
+* My previous hour's (completed) work is in the cleverly named (_previous/) folder
+* All previous hours have been zipped up into discreet files and tossed into the hellscape that is the (_multiverse/)
+
+[Previous iteration](_previous/one-hour-rails-app-2026-10-29/)
+[Multiverse archives](_multiverse/)
+
 
 ## And Now For Some Concise Instructions For First Use
 
